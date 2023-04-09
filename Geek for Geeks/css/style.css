@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kanit:ital,wght@0,100;1,600&family=PT+Sans+Caption&family=Rajdhani:wght@500&family=Rampart+One&family=Rubik+Iso&family=Sofia+Sans+Extra+Condensed:wght@1;700&display=swap');
+
+body {
+    font-family: 'PT Sans caption', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container .header {
+    display: flex;
+    justify-content: center;
+    background: green;
+    color: #fff;
+    padding: 40px;
+}
+.container .navigation {
+    background: #000;
+    padding: 10px;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+.content h2 {
+    color: green;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    background: #000;
+}
